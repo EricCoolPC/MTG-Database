@@ -3,7 +3,7 @@ import Card as c
 
 cardName = ""
 
-uriDefault = "https://gatherer.wizards.com/Pages/Default.aspx"
+urlDefault = "https://gatherer.wizards.com/Pages/Default.aspx"
 urlSearch = "?name=+[{cn}]".format(cn=cardName)
 
 if __name__ == "__main__":
